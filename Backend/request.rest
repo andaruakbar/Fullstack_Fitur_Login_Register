@@ -1,0 +1,21 @@
+GET http://localhost:5000/users
+
+###
+POST  http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name" : "Andaru Akbar",
+    "email" : "andaru@gmail.com",
+    "password" : "12345678",
+    "confPassword" : "12345678"
+}
+
+###
+POST  http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "email" : "andaru@gmail.com",
+    "password" : "12345678"
+}
